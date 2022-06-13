@@ -10,6 +10,7 @@
     <meta property="og:description" content="A bot to start discord activties" />
     <meta property="og:url" content="https://activtiesbot.xyz" />
     <meta property="og:image" content="./img/logo.png" />
+    <link rel="stylesheet" href="css/Home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
@@ -36,21 +37,20 @@
         </nav>
     </div>
 
-    <div style="padding: 350px; background-color: rgb(23, 20, 26);">
+    <div id="block">
         <div class="container text-center" >
             <h1 style="color: whitesmoke;" class="fw-lighter">Start Activities In Seconds</h1>
             <a href="https://discord.com/oauth2/authorize?client_id=955928472549736448&permissions=8&scope=applications.commands%20bot">
-                <button style="background:linear-gradient(90deg, rgba(86,35,144,1) 0%, rgba(144,26,88,1) 100%); border:none; border-radius: 12px; margin-top:20px; padding:20px; padding-left: 50px; padding-right: 50px">
-                    <img src="./img/discordlogo.png" height="30px" alt="DiscordLogo" style="margin-right: 20px; margin-left: auto;">
-                    <h5 class="fw-lighter" style="margin-bottom: 0rem;color: whitesmoke;float: right;">Add To Discord</h5>
+                <button id="invitebutton" class="fw-lighter">
+                    Add To Discord
                 </button>
             </a>
         </div>
     </div>
-    <div style="padding:300px; background-image: linear-gradient(90deg, rgba(86,35,144,1) 0%, rgba(144,26,88,1) 100%); color: whitesmoke;">
+    <div id="block2">
         <div class="container text-center">
             <h1 class="fw-lighter">Easy And Fast</h1>
-            <img src="./img/exemple.png" alt="Exemple" style="margin-top: 30px;width: 50%;margin-right: auto; margin-left:auto; border-radius: 30px;">
+            <img src="./img/exemple.png" alt="Exemple" id="exemple">
         </div>
     </div>
     <div style="padding:300px; background-color: rgb(23, 20, 26); color: whitesmoke;">
@@ -72,7 +72,7 @@
             </h1>
         </div>
     </div>
-    <div style="background-image: linear-gradient(90deg, rgba(86,35,144,1) 0%, rgba(144,26,88,1) 100%); color: whitesmoke;padding: 40px;">
+    <div id="pie">
         <div class="container text-center">
             <h4 class="fw-light" style="margin:0">Website And Bot By Galbaninoh#3543</h4>
         </div>
