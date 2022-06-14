@@ -7,6 +7,7 @@
     padding-left: 50px;
     padding-right: 50px;
     transition: all 0.5s
+
 }
 
 #invitebutton:hover {
@@ -29,6 +30,12 @@
     margin-right: auto;
     margin-left:auto;
     border-radius: 30px;
+    width: 50%;
+    transition: all 0.5s;
+}
+
+#exemple:hover {
+    width: 55%;
 }
 
 #pie {
